@@ -1,2 +1,2 @@
 baseurl: /streamx
-markdown: redcarpet
+markdown: kramdown
