@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: md-page
 ---
 
 Here is my page.
