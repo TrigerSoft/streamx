@@ -1,5 +1,5 @@
 ---
-layout: md-page
+layout: default
 ---
 
 Here is my page.
