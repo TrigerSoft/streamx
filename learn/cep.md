@@ -17,7 +17,8 @@ Understanding the true nature of CEP applications
 <pre>we want to calculate distance between the planes based on their locations within some
 (potentially short) time frame</pre>
 - The action might be taken when the conditions are met and/or when these conditions are *not* met anymore
-<pre>when distance between the planes is back above threshold, the pilots should be notified again</pre>
+<pre>when distance between the planes is back above threshold, the pilots should be notified
+again</pre>
 
 
 > **Q: What if my application does not meet these requirements?**<br/>
