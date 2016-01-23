@@ -8,8 +8,8 @@ Understanding the true nature of CEP applications
 1. Analyzing large amounts of *historical* data to
   - find behavioral patterns.
   - find root cause of some problem.
-  - ... other types of *post-mortem* analysis
-2. Analyzing events in *current* time frame to take a *compensating* action. There is a direct relation between the event and the action.
+  - ... other types of *post-mortem* analysis.
+2. Analyzing events in *current* time frame to take a *compensating* action and affect the current course of events
 
 #### The second domain is CEP. In summary, CEP applications must meet the following requirements:
 - Events are happening in *real time*
