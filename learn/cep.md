@@ -1,3 +1,6 @@
+---
+layout: md
+---
 ## CEP Concepts
 Understanding the true nature of CEP applications
 
