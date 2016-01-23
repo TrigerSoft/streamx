@@ -13,7 +13,7 @@ Understanding the true nature of CEP applications
 <pre>planes reporting their coordinates</pre>
 - Under certain conditions a *compensating* action needs to be taken
 <pre>if distance between two planes is under some threshold, the pilots should be notified</pre>
-- There is a temporal distance between events
+- There is a *temporal distance* between events
 <pre>distance between the planes is calculated based on their locations within some
 (potentially short) time frame</pre>
 - The action might be taken when the conditions are met and/or when these conditions are *not* met anymore
