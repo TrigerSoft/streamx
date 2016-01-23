@@ -14,7 +14,7 @@ Understanding the true nature of CEP applications
 - Under certain conditions a *compensating* action needs to be taken
 <pre>if distance between two planes is under some threshold, the pilots should be notified</pre>
 - There is a temporal distance between events
-<pre>we want to calculate distance between the planes based on their locations within some
+<pre>distance between the planes is calculated based on their locations within some
 (potentially short) time frame</pre>
 - The action might be taken when the conditions are met and/or when these conditions are *not* met anymore
 <pre>when distance between the planes is back above threshold, the pilots should be notified
