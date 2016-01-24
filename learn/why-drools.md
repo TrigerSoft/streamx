@@ -11,7 +11,7 @@ layout: md
  
 * Programmed with Javascript-like declarative language
   * especially designed and evolved to meet business rules domain needs
-  * type safe and compiled
+  * type safe and statically compiled
   * supports standard programming constructs like functions, to make the rules easy to develop and maintain
   * able to invoke Java code, thus able to handle virtually any advanced use case
   
