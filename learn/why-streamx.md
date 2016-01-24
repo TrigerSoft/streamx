@@ -16,13 +16,19 @@ we take the leading CEP engine and tightly integrate it with Azure to create a s
  * Advanced <a href="http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/ch09.html#d0e12237" target="_blank">temporal reasoning</a>
  * Different types of <a href="http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/ch09.html#d0e12032" target="_blank">sliding windows</a>
  * Support for state *enter* and *exit* notifications. I.e. the system can track both cases, when conditions are met and *not* met anymore.
-* **Ordering**: events from same partition will produces outputs sent to the same partition
+* **Ordering**: events from same partition will produce outputs sent to the same partition
 * **Scalability**: tight integration with Azure Event Hubs allows the solution to scale up to the number of partitions configured for the Event Hubs. Scaling can be dynamially and uninterruptible applied from the management console
 * **Reliability and quick recovery**: 
  * Managed service in the cloud
  * Built-in recovery capabilities via internal state maintainance guaranties At-Least-Once delivery
 * **Low cost**: the service is built for you to pay as you go based on Processing Unit usage that can be dynamically adjusted
 * **Reference data**: static or slow changing data can be combined with streaming data in the same rule
-  * Azure tables with dynamic updates and deletes
-  * Azure Blobs
-* **Connectivity**: connecting ti multiple Azure Event Hubs for stream ingestion, and the Azure Tables/Blobs services to ingest historical data. Results can be written to Azure Storage Blobs or Tables, Event Hubs, Azure Service Bus Topics or Queues. 
+ * Azure tables with dynamic updates and deletes
+ * Azure Blobs
+* **Inputs**: 
+ * multiple Azure Event Hubs for data stream
+ * Azure Blobs or Tables service (reference data)
+* **Outputs**:
+ * Azure Storage Blobs or Tables
+ * Azure Event Hubs
+ * Azure Service Bus Topics or Queues
