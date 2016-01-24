@@ -15,7 +15,7 @@ we take the leading CEP engine and tightly integrate it with Azure to create a s
  * Ability to combine multiple Event Hubs and other inputs in the same rule
  * Advanced <a href="http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/ch09.html#d0e12237" target="_blank">temporal reasoning</a>
  * Different types of <a href="http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/ch09.html#d0e12032" target="_blank">sliding windows</a>
- * Support for state *enter* and *exit* notifications. I.e. the system can track both cases, when conditions are met and *not* met anymore.
+ * Support for state *enter* and *exit* notifications. I.e. the system can track both cases, when conditions are met and/or *not* met anymore.
 * **Ordering**: events from same partition will produce outputs sent to the same partition
 * **Scalability**: tight integration with Azure Event Hubs allows the solution to scale up to the number of partitions configured for the Event Hubs. Scaling can be dynamially and uninterruptible applied from the management console
 * **Reliability and quick recovery**: 
