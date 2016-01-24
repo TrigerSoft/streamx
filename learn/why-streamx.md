@@ -26,7 +26,7 @@ we take the leading CEP engine and tightly integrate it with Azure to create a s
  * Azure tables with dynamic updates and deletes
  * Azure Blobs
 * **Inputs**: 
- * multiple Azure Event Hubs for data stream
+ * Azure Event Hubs for data streams
  * Azure Blobs or Tables service (reference data)
 * **Outputs**:
  * Azure Storage Blobs or Tables
