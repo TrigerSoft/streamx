@@ -14,10 +14,9 @@ we take the leading CEP engine and tightly integrate it with Azure to create a s
  * Advanced <a href="http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/ch09.html#d0e12237" target="_blank">temporal reasoning</a>
  * Different types of <a href="http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/ch09.html#d0e12032" target="_blank">sliding windows</a>
  * Support for state *enter* and *exit* notifications. I.e. the system can track both cases, when conditions are met and *not* met anymore.
-
-Stream Analytics supports a simple, declarative query model for describing transformations. 
-In order to optimize for ease of use, Stream Analytics uses a SQL variant, and removes the need for customers to deal with the 
-technical complexities of stream processing systems. Using the Stream Analytics query language in the in browser query editor, 
-you get intelli-sense auto-complete to help you can quickly and easily implement time series queries, including temporal-based joins, 
-windowed aggregates, temporal filters, and other common operations such as joins, aggregates, projections, and filters. 
-In addition, in-browser query testing against a sample data file enables quick, iterative development.
+* **Ordering**: results sent to the same output can be <a href="https://azure.microsoft.com/en-us/documentation/articles/service-bus-partitioning/" target="_blank">ordered</a>
+* **Scalability**: tight integration with Azure Event Hubs allows the solution to scale up to the number of partitions configured for the Event Hubs. Scaling can be dynamially and uninterruptible applied from the management console
+* **Reliability and quick recovery**: 
+ * Managed service in the cloud
+ * Built-in recovery capabilities via internal state maintainance guaranties At-Least-Once delivery
+* **Low cost**: the service is built for you to pay as you go based on Processing Unit usage that can be dynamically adjusted
