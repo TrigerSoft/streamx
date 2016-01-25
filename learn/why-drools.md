@@ -1,7 +1,7 @@
 ---
 layout: md
 ---
-## [Drools](http://www.drools.org) - Business Rules Engine
+## <a href="http://www.drools.org" target="_blank">Drools</a> - Business Rules Engine
 
 * Mature, used by enterpise for more than 10 years
  * large <a href="http://docs.jboss.org/drools/release/6.3.0.Final/drools-docs/html/pt03.html" target="_blank">feature set</a>
